@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+/* font-family: 'Comic Neue', cursive; */
+.container-header{
+    width: 100vw;
+    text-align: center;
+}
+.brand-header {
+    text-align: right;
+}
+.title-header {
+    text-align: left;
+}
+.title-promo-txt {
+    width: 100vw;
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    font-weight: bolder ;
+    align-self: center;
+}
+.sec-promo {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;                                                                                                       vh;
+}
+.container-promo {
+    width: 100vw;
+    align-items: center;
+}
+.form-promo {
+    margin: auto;
+    display: table;
+    text-align: center;
+    background: rgba(0,0,255,0.4);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.title-promo {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+.input-promo {
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    outline: none;
+    background: rgba(255,0,0,0.8);
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.input-promo::placeholder {
+    color: black;
+}
+.button-promo {
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    -webkit-border-radius: 150px;
+    -webkit-border-top-left-radius: 35px;
+    -webkit-border-top-right-radius: 35px;
+    -moz-border-radius: 150px;
+    -moz-border-radius-topleft: 35px;
+    -moz-border-radius-topright: 35px;
+    border-radius: 150px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    outline: none;
+    background: rgba(255,0,0,1);
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.button-promo:hover {
+    background: black;
+    color: red;
+}
+.button-promo:active {
+    background: black;
+    font-size: 18;
+    outline: none;
+    border: none;
+}
+.img-promo {
+    margin: 0 auto;
+    text-align: center;
+}
+.sec-products {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    background: rgb(255, 224, 224);
+}
+.container-products {
+    margin: 10px auto;
+    text-align: center;
+    max-width: 700px;
+}
+.show-product {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    -webkit-box-shadow: 7px 7px 0px -1px rgba(113, 113, 140, 0.28);
+    -moz-box-shadow:    7px 7px 0px -1px rgba(113, 113, 140, 0.28);
+    box-shadow:         7px 7px 0px -1px rgba(113, 113, 140, 0.28);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.form-product {
+    margin: auto;
+    width: 539.16px;
+    height: 84px;
+    display: table;
+    text-align: center;
+    background: rgba(0,0,255,0.4);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+footer {
+    margin: auto;
+    width: 100vw;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background: lightyellow;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+}
+a {
+    display: block;
+    color: black;
+}
+a:hover {
+    color: red;
+}
+i {
+    font-size: 40px;
+    padding: 20px;
+}
+footer .copyrights {
+    margin: auto;
+}
+.copy {
+    margin: 0;
+    background: lightyellow;
+    font-weight: bolder;
+}
